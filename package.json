@@ -1,0 +1,20 @@
+{
+  "name": "automation-of-posts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview --port 3000"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "@types/nodemailer": "^8.0.2",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.10"
+  }
+}
